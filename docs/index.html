@@ -6,12 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MS</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"/>
 </head>
 <body>
-    <div class="avatar"></div>
-    <div class="message" data-content="hello"></div>
-    <div class="message" data-content="I'm MS"></div>
-    <h1>Hello, I'm MS</h1>
-    <script src="./script.js"></script>
+  <div class="dots"></div>
+  <!-- <div class="dots"></div> -->
+
+  <div id="sidebar">
+    <h2>Welcome to my website &#x1F44B;</h3>
+    <h3>I'm <font color="#77ff00">M.S</font>, a hobbyist programmer and student in engineering, physics and mathematics.</h3>
+    <hr>
+
+    <h2>My Projects</h2>
+    <div id="projects">
+      <div class="card">
+        <div class="title"><a href="https://github.com/messagin">Messagin'</a></div>
+        <div class="desc">An intuitive chat application designed for programmers and colaborators. Inspired by several platforms such as <a href="https://discord.com">Discord</a>, <a href="https://slack.com">Slack</a>, <a href="https://matrix.org">Matrix</a> and <a href="https://revolt.chat">Revolt</a>.</div>
+      </div>
+      <div class="card">
+        <div class="title"><a href="https://github.com/hadron-lang">Hadron</a></div>
+        <div class="desc">A programming language built on top of C. It will feature a compiler for low-level compatibility and an interpreter for high-level features.</div>
+      </div>
+      <div class="card">
+        <div class="title">OS</div>
+        <div class="desc">Unfortunately I didn't come up with a name for this one yet. It's at very early stages of development and not published on github. I won't share any details for now :)</div>
+      </div>
+      <div class="card">
+        <div class="title"><a href="https://github.com/ms-is-coding/factorial">factorial</a></div>
+        <div class="desc">This is a program I made for fun, it optimizes factorial computation by spreading the workload on all the CPU cores</div>
+      </div>
+    </div>
+  </div>
+<!--
+  <div id="images">
+    <div class="cont"></div>
+    <div class="cont"></div>
+    <div class="cont"></div>
+    <div class="cont"></div>
+  </div> -->
+
+  <script src="./script.js"></script>
 </body>
 </html>
