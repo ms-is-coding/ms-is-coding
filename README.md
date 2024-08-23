@@ -1,3 +1,5 @@
+<img align="right" src="https://streak-stats.demolab.com?user=ms-is-coding&locale=en&mode=daily&theme=chartreuse-dark&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+
 ### *Welcome to my profile &#x1F44B;*
 ### *I'm <font color="#77ff00">M.S</font>, a hobbyist programmer and student in engineering, physics and mathematics.*
 ### *Here I only list some of my projects, please take a look at [my website](https://ms.webd3vs.xyz) for more :)*
