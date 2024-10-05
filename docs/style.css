@@ -33,7 +33,8 @@ body {
   grid-template-columns: 50% 50%;
 }
 
-h3, h2 {
+h3,
+h2 {
   font-style: italic;
   text-align: center;
 }
@@ -115,12 +116,24 @@ hr {
   font-size: 1.25rem;
 }
 
-.title > a, .title > a:hover, .title > a:visited, .title > a:active {
+
+a,
+a:hover,
+a:visited,
+a:active,
+.title>a,
+.title>a:hover,
+.title>a:visited,
+.title>a:active {
   color: inherit !important;
   text-decoration: none;
 }
 
-a, a:visited, a:hover, a:active {
+
+.card a,
+.card a:visited,
+.card a:hover,
+.card a:active {
   color: #77ff00 !important;
 }
 
@@ -128,9 +141,11 @@ a, a:visited, a:hover, a:active {
   0% {
     background: linear-gradient(45deg, #f00, #00f);
   }
+
   50% {
     background: linear-gradient(45deg, #f00, #00f);
   }
+
   100% {
     background: linear-gradient(45deg, #f00, #00f);
   }
@@ -147,6 +162,7 @@ a, a:visited, a:hover, a:active {
 .dots:nth-child(1) {
   --mask: radial-gradient(at center, #0000, #0000, #fff);
 }
+
 .dots:nth-child(2) {
   --mask: linear-gradient(to top right, #fff, #0000, #0000, #0000, #fff);
 }
@@ -186,9 +202,11 @@ a, a:visited, a:hover, a:active {
 .dots:nth-child(1)::before {
   background: radial-gradient(#0f0, transparent, transparent, transparent) 0 0/1em 1em space;
 }
+
 .dots:nth-child(2)::before {
   background: radial-gradient(#ff0, transparent, transparent, transparent) 0 0/1em 1em space;
 }
+
 /*
 .cont {
   top: 0;
