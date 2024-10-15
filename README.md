@@ -2,7 +2,7 @@
 
 ### *Welcome to my profile &#x1F44B;*
 ### *I'm <font color="#77ff00">M.S</font>, a hobbyist programmer and student in engineering, physics and mathematics.*
-### *I only list some of my projects here, please take a look at [my website](https://ms.webd3vs.xyz) for more :)*
+### *I only list some of my projects here, please take a look at [my website](https://ms.hadronlang.com) for more :)*
 
 ---
 
