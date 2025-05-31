@@ -1,12 +1,28 @@
-<img align="right" src="https://streak-stats.demolab.com?user=ms-is-coding&locale=en&mode=daily&theme=chartreuse-dark&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-
 ### *Welcome to my profile &#x1F44B;*
-### *I'm <font color="#77ff00">M.S</font>, a hobbyist programmer and student in engineering, physics and mathematics.*
-### *I only list some of my projects here, please take a look at [my website](https://ms.webd3vs.xyz) for more :)*
+### *I'm <font color="#77ff00">M.S</font>, a passionate programmer studying at 42 Paris with a background in physics and mathematics.*
 
 ---
 
-### Projects I'm working on:
-- [Messagin'](https://github.com/messagin) - An intuitive chat application designed for programmers and colaborators. Inspired by several platforms such as [Discord](https://discord.com), [Slack](https://slack.com), [Matrix](https://matrix.org) and [Revolt](https://revolt.chat).
-- [Hadron](https://hadronlang.com) - A programming language built on top of C. It will feature a compiler for low-level compatibility and an interpreter for high-level features.
-- OS - Unfortunately I didn't come up with a name for this one yet. It's at very early stages of development and not published on github. I won't share any details for now :)
+### My School Projects
+
+> ### LibFT
+> A comprehensive utility library that provides various essential functions and data structures, including:
+> - String and memory functions
+> - Random number generator
+> - Linked lists
+> - Custom printf (see [ft_printf](#ft_printf))
+> - Linear-probing hashmap
+> - Dynamic array
+> - AVL binary search tree
+
+> ### ft_printf
+> A custom implementation of the `printf` function
+> - Flags: `#` `0` `-` ` ` `+`
+> - Field width: number or `*`, negative values set the `-` flag
+> - Precision: number or `*`
+> - Length modifier: all the modifiers mentioned in `printf(3)`
+> - Conversion specifier: `idxXcspnm%`
+
+<!--
+Did you really think you would find something here?
+-->
