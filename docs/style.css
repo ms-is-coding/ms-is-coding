@@ -3,14 +3,14 @@
   --background-secondary: #002000;
   --background-tertiary: #555;
   --color: #fff;
-  --border: #7f08;
+  --border: #80ff0080;
   --accent: #bbaaff;
   --error: #ff0000;
   --background-error: #ff000020;
 
-  --whiteshadow1: #7f04;
-  --whiteshadow2: #7f01;
-  --whiteshadow3: #7f00;
+  --whiteshadow1: #80ff0040;
+  --whiteshadow2: #80ff0010;
+  --whiteshadow3: #80ff0000;
 
   --r: .5rem;
   --spread: 0;
@@ -19,22 +19,23 @@
 
 html {
   font-size: 16px;
+  margin: unset;
   font-family: Ubuntu;
 }
 
 body {
-  height: 100vh;
-  flex-flow: column;
-  overflow: hidden;
+  overflow-x: hidden;
   background: var(--background-primary);
   color: var(--color);
   margin: unset;
-  display: grid;
-  grid-template-columns: 50% 50%;
 }
 
 h3,
 h2 {
+  transform: translateX(-50%);
+  position: relative;
+  left: 50%;
+  max-width: 36rem;
   font-style: italic;
   text-align: center;
 }
@@ -44,12 +45,15 @@ hr {
 }
 
 #projects {
+  position: relative;
   box-sizing: border-box;
   row-gap: 1rem;
   column-gap: 1rem;
-  padding: 4rem 1rem;
+  padding: 1rem;
   width: 100%;
   max-width: 36rem;
+  transform: translateX(-50%);
+  left: 50%;
   overflow-x: hidden;
   display: flex;
   flex-wrap: wrap;
@@ -76,13 +80,18 @@ hr {
   row-gap: .25rem;
   box-sizing: border-box;
   padding: 1rem;
-  width: 16rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   min-height: 1rem;
   border-radius: .5rem;
   background: var(--background-secondary);
   border: 1px solid var(--border);
   transition: border-color .2s;
   cursor: pointer;
+}
+
+.card ul {
+  text-align: left;
 }
 
 .card * {
@@ -112,10 +121,17 @@ hr {
   --spread: 8px;
 }
 
-.title {
-  font-size: 1.25rem;
+code {
+  background: #80ff0020;
+  padding: 0rem .25rem;
+  border-radius: .25rem;
+  border: 1px solid #80ff0040;
 }
 
+.title {
+  position: relative;
+  font-size: 1.25rem;
+}
 
 a,
 a:hover,
@@ -129,12 +145,18 @@ a:active,
   text-decoration: none;
 }
 
+.title:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-style: wavy;
+  -moz-text-decoration-style: wavy;
+  text-decoration-style: wavy;
+}
 
 .card a,
 .card a:visited,
 .card a:hover,
 .card a:active {
-  color: #77ff00 !important;
+  color: #80ff00 !important;
 }
 
 @keyframes bg {
@@ -165,19 +187,6 @@ a:active,
 
 .dots:nth-child(2) {
   --mask: linear-gradient(to top right, #fff, #0000, #0000, #0000, #fff);
-}
-
-#sidebar {
-  display: flex;
-  flex-flow: column;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  position: fixed;
-  width: 100vw;
 }
 
 #images {

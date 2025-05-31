@@ -14,44 +14,46 @@
     rel="stylesheet" />
 </head>
 
-<body>
-  <div class="dots"></div>
-
-  <div id="sidebar">
+  <body>
     <h2>Welcome to my website &#x1F44B;</h3>
-      <h3>I'm <font color="#77ff00">M.S</font>, a hobbyist programmer and student in engineering, physics and
-        mathematics.</h3>
+      <h3>I'm <font color="#80ff00">M.S</font>, a passionate programmer currently
+        studying at 42 Paris with a background in physics and mathematics.</h3>
       <hr>
 
-      <h2>My Projects</h2>
+      <h2>My School Projects</h2>
       <div id="projects">
-        <a href="https://github.com/messagin" class="card">
-          <div class="title">Messagin'</div>
-          <div class="desc">An intuitive chat application designed for programmers and collaborators. Inspired by
-            several platforms such as Discord, Slack, Matrix and Revolt.</div>
-        </a>
-
-        <a href="https://hadronlang.com" class="card">
-          <div class="title">Hadron</div>
-          <div class="desc">A programming language built on top of C. It will feature a compiler for low-level
-            compatibility and an interpreter for high-level features.</div>
-        </a>
 
         <div class="card">
-          <div class="title">OS</div>
-          <div class="desc">Unfortunately I didn't come up with a name for this one yet. It's at very early stages of
-            development and not published on github. I won't share any details for now :)</div>
+          <a class="title" href="https://github.com/ms-is-coding/libft-reloaded">LibFT</a>
+          <div class="desc">
+            A comprehensive utility library that provides various essential functions and data structures, including:
+            <ul>
+              <li>String and memory functions</li>
+              <li>Random number generator</li>
+              <li>Linked lists</li>
+              <li>Custom printf (see <code>ft_printf</code>)</li>
+              <li>Linear-probing hashmap</li>
+              <li>Dynamic array</li>
+              <li>AVL binary search tree</li>
+            </ul>
+          </div>
         </div>
 
-        <a href="https://github.com/ms-is-coding/factorial" class="card">
-          <div class="title">factorial</div>
-          <div class="desc">This is a program I made for fun, it optimizes factorial computation by spreading the
-            workload on all the CPU cores</div>
-        </a>
-      </div>
-  </div>
+        <div class="card">
+          <a class="title">ft_printf</a>
+          <div class="desc">
+            A custom implementation of the <code>printf</code> function.
+            <ul>
+              <li>Flags: <code>#</code> <code>0</code> <code>-</code> <code>&nbsp;</code> <code>+</code></li>
+              <li>Field width: number or <code>*</code>, negative values set the <code>-</code> flag</li>
+              <li>Precision: number or <code>*</code></li>
+              <li>Length modifier: all the modifiers mentioned in <code>printf(3)</code></li>
+              <li>Conversion specifier: `idxXcspnm%`</li>
+            </ul>
+          </div>
+        </div>
 
-  <script src="./script.js"></script>
-</body>
+      <script src="./script.js"></script>
+  </body>
 
 </html>
